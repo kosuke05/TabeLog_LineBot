@@ -2,7 +2,6 @@ from gensim.models import KeyedVectors
 
 def relevance(w):
     try:
-#        model = KeyedVectors.load_word2vec_format('C:/Users/shine/OneDrive/prog/Xedge/line/TabelogAdd.vec.pt', binary=True)
         model = KeyedVectors.load_word2vec_format('TabelogAdd.vec.pt', binary=True)
         food = w
         results = model.most_similar(positive = [food,'食べ物'])
