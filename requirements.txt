@@ -1,0 +1,7 @@
+Flask
+line-bot-sdk
+gensim
+requests==2.22.0
+pandas
+datetime
+selenium
